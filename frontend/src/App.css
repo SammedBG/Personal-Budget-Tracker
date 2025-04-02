@@ -1,0 +1,86 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.transaction-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.transaction-form input,
+.transaction-form select,
+.transaction-form button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.transaction-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.transaction-form button:hover {
+  background-color: #45a049;
+}
+
+.transaction-list h2,
+.summary h2 {
+  color: #555;
+}
+
+.transaction-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.transaction-list li.income {
+  border-left: 4px solid #4CAF50;
+}
+
+.transaction-list li.expense {
+  border-left: 4px solid #f44336;
+}
+
+.transaction-list button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.transaction-list button:hover {
+  background-color: #d32f2f;
+}
+
+.summary p {
+  margin: 5px 0;
+}
+
+.summary .income {
+  color: #4CAF50;
+}
+
+.summary .expense {
+  color: #f44336;
+}
