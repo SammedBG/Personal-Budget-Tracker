@@ -18,7 +18,7 @@ A full-stack app to track income and expenses using MongoDB, Express.js, React, 
 - MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
 
 ## Setup
-1. **Clone Repo**: `git clone <repository-url> && cd personal-budget-tracker`
+1. **Clone Repo**: `git clone https://github.com/SammedBG/Personal-Budget-Tracker.git && cd personal-budget-tracker`
 2. **Backend**:
    - `cd backend`
    - `npm install`
@@ -42,7 +42,7 @@ A full-stack app to track income and expenses using MongoDB, Express.js, React, 
 - `DELETE /api/transactions/:id`: Delete transaction
 
 ## Troubleshooting
-- **CORS**: Ensure `cors` is in `backend/index.js`
+- **CORS**: Ensure `cors` is in `backend/server.js`
 - **MongoDB**: Check `MONGO_URI` in `.env`
 - **Model Errors**: Verify `Transaction` model in `backend/models/Transaction.js`
 
